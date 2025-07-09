@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"zuDQhcbcMj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">LCDP</span>\",\"col\":12}},{\"id\":\"-GklQcWh-K\",\"type\":\"card\",\"data\":{\"card_name\":\"VENTAS\",\"col\":4}}]",
+ "content": "[{\"id\":\"zuDQhcbcMj\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Accesos directos</b></span>\",\"col\":12}},{\"id\":\"-GklQcWh-K\",\"type\":\"card\",\"data\":{\"card_name\":\"VENTAS\",\"col\":4}}]",
  "creation": "2025-07-08 18:02:40.519506",
  "custom_blocks": [],
  "docstatus": 0,
@@ -17,7 +17,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "VENTAS",
-   "link_count": 1,
+   "link_count": 6,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -25,15 +25,65 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Cotizaciones",
+   "label": "\ud83d\udcc4Cotizaciones",
    "link_count": 0,
    "link_to": "Quotation",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83e\uddfeOrden de venta",
+   "link_count": 0,
+   "link_to": "Sales Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83e\uddfeFactura de venta",
+   "link_count": 0,
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udcb0Pagos recibidos",
+   "link_count": 0,
+   "link_to": "Payment Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udc65Clientes",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\ud83d\udccaReporte de ventas",
+   "link_count": 0,
+   "link_to": "Sales Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2025-07-08 18:22:41.311585",
+ "modified": "2025-07-09 02:55:31.867645",
  "modified_by": "mandox.com.bo@gmail.com",
  "module": "Mdx Lcdp",
  "name": "LCDP",
