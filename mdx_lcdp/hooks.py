@@ -1,9 +1,25 @@
 app_name = "mdx_lcdp"
 app_title = "Mdx Lcdp"
-app_publisher = "Gary Garcia"
+app_publisher = "Gary Garcia Cruz"
 app_description = "Parametrizacion exclusiva para el cliente la Casa del porcelanato"
 app_email = "garcia.cruzgc@gmail.com"
 app_license = "mit"
+
+
+fixtures = [
+    # Para exportar un Workspace específico por su nombre
+    {"dt": "Workspace", "filters": [["name", "=", "LCDP"]]},
+
+    # Si tuvieras otro Workspace que quisieras exportar, lo añadirías aquí:
+    # {"dt": "Workspace", "filters": [["name", "=", "otro-workspace-personalizado"]]},
+
+    # Si también quisieras exportar otros DocTypes como fixtures, los añadirías aquí.
+    # Por ejemplo, para un Rol específico:
+    # {"dt": "Role", "filters": [["name", "=", "Librarian"]]},
+
+    # O para un DocType completo (¡con precaución, exporta todos los registros!):
+    # "DocTypePersonalizado"
+]
 
 # Apps
 # ------------------

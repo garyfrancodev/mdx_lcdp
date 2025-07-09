@@ -1,0 +1,49 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"zuDQhcbcMj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">LCDP</span>\",\"col\":12}},{\"id\":\"-GklQcWh-K\",\"type\":\"card\",\"data\":{\"card_name\":\"VENTAS\",\"col\":4}}]",
+ "creation": "2025-07-08 18:02:40.519506",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "image-view",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "LCDP",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "VENTAS",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cotizaciones",
+   "link_count": 0,
+   "link_to": "Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-07-08 18:22:41.311585",
+ "modified_by": "mandox.com.bo@gmail.com",
+ "module": "Mdx Lcdp",
+ "name": "LCDP",
+ "number_cards": [],
+ "owner": "mandox.com.bo@gmail.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "LCDP"
+}
