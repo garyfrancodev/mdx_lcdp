@@ -1,6 +1,11 @@
 {
- "charts": [],
- "content": "[{\"id\":\"zuDQhcbcMj\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Accesos directos</b></span>\",\"col\":12}},{\"id\":\"-GklQcWh-K\",\"type\":\"card\",\"data\":{\"card_name\":\"VENTAS\",\"col\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Sales Order Trends",
+   "label": "\u00d3rdenes de venta"
+  }
+ ],
+ "content": "[{\"id\":\"zuDQhcbcMj\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Accesos directos</b></span>\",\"col\":12}},{\"id\":\"-GklQcWh-K\",\"type\":\"card\",\"data\":{\"card_name\":\"VENTAS\",\"col\":3}},{\"id\":\"62iRScfFAd\",\"type\":\"card\",\"data\":{\"card_name\":\"COMPRAS\",\"col\":3}},{\"id\":\"5wwk3ZDJEj\",\"type\":\"card\",\"data\":{\"card_name\":\"PRODUCTOS Y PRECIOS\",\"col\":3}},{\"id\":\"j8M-Qz7Dh1\",\"type\":\"card\",\"data\":{\"card_name\":\"ALMACEN\",\"col\":3}},{\"id\":\"_iiAeZ30Ji\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u00d3rdenes de venta\",\"col\":12}}]",
  "creation": "2025-07-08 18:02:40.519506",
  "custom_blocks": [],
  "docstatus": 0,
@@ -81,9 +86,186 @@
    "link_type": "Report",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "COMPRAS",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\uded2Orden de compra",
+   "link_count": 0,
+   "link_to": "Purchase Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83e\uddfeFactura de compras",
+   "link_count": 0,
+   "link_to": "Purchase Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udce4Recepci\u00f3n de mercanc\u00edas",
+   "link_count": 0,
+   "link_to": "Purchase Receipt",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udc65Proveedores",
+   "link_count": 0,
+   "link_to": "Supplier",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\ud83d\udccbReporte de compras",
+   "link_count": 0,
+   "link_to": "Purchase Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "PRODUCTOS Y PRECIOS",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udce6Productos",
+   "link_count": 0,
+   "link_to": "Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\uddc2\ufe0fGrupo de productos",
+   "link_count": 0,
+   "link_to": "Item Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83c\udff7\ufe0fPrecio de productos",
+   "link_count": 0,
+   "link_to": "Item Price",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83e\uddfeListas de precios",
+   "link_count": 0,
+   "link_to": "Price List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ALMACEN",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83c\udfecAlmacenes",
+   "link_count": 0,
+   "link_to": "Warehouse",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\ude9aNota de entrega",
+   "link_count": 0,
+   "link_to": "Delivery Note",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udd04Entrada de inventario",
+   "link_count": 0,
+   "link_to": "Stock Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udd0dControl de inventarios",
+   "link_count": 0,
+   "link_to": "Stock Reconciliation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\ud83d\udcddReporte de inventario resumido",
+   "link_count": 0,
+   "link_to": "Stock Ledger",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "\ud83d\udcddReporte de inventario detallado",
+   "link_count": 0,
+   "link_to": "Stock Balance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2025-07-09 02:55:31.867645",
+ "modified": "2025-07-09 19:36:21.024817",
  "modified_by": "mandox.com.bo@gmail.com",
  "module": "Mdx Lcdp",
  "name": "LCDP",
