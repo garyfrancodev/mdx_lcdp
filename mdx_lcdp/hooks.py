@@ -9,6 +9,7 @@ app_license = "mit"
 fixtures = [
     # Para exportar un Workspace específico por su nombre
     {"dt": "Workspace", "filters": [["name", "=", "LCDP"]]},
+    {"dt": "Letter Head", "filters": [["name", "=", "Membrete LCDP 1.0"]]}
 
     # Si tuvieras otro Workspace que quisieras exportar, lo añadirías aquí:
     # {"dt": "Workspace", "filters": [["name", "=", "otro-workspace-personalizado"]]},
