@@ -7,9 +7,10 @@ app_license = "mit"
 
 
 fixtures = [
-    # Para exportar un Workspace específico por su nombre
-    {"dt": "Workspace", "filters": [["name", "=", "LCDP"]]},
-    {"dt": "Letter Head", "filters": [["name", "=", "Membrete LCDP 1.0"]]}
+    # Aquí puedes añadir los DocTypes que quieras exportar como fixtures.
+    {"dt": "Workspace", "filters": [["name", "=", "LCDP"]]}, #Este es el Workspace personalizado que se exportará.
+    {"dt": "Letter Head", "filters": [["name", "=", "Membrete LCDP 1.0"]]}, # este es el Membrete personalizado que se exportará.
+    {"dt": "Print Settings"} # Este es el DocType de configuraciones de impresión que se exportará.
 
     # Si tuvieras otro Workspace que quisieras exportar, lo añadirías aquí:
     # {"dt": "Workspace", "filters": [["name", "=", "otro-workspace-personalizado"]]},
