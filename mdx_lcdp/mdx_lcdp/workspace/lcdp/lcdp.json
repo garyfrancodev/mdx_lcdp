@@ -6,7 +6,7 @@
   }
  ],
  "content": "[{\"id\":\"zuDQhcbcMj\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Accesos directos</b></span>\",\"col\":12}},{\"id\":\"-GklQcWh-K\",\"type\":\"card\",\"data\":{\"card_name\":\"VENTAS\",\"col\":3}},{\"id\":\"62iRScfFAd\",\"type\":\"card\",\"data\":{\"card_name\":\"COMPRAS\",\"col\":3}},{\"id\":\"5wwk3ZDJEj\",\"type\":\"card\",\"data\":{\"card_name\":\"PRODUCTOS Y PRECIOS\",\"col\":3}},{\"id\":\"j8M-Qz7Dh1\",\"type\":\"card\",\"data\":{\"card_name\":\"ALMACEN\",\"col\":3}},{\"id\":\"_iiAeZ30Ji\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u00d3rdenes de venta\",\"col\":12}}]",
- "creation": "2025-07-08 18:02:40.519506",
+ "creation": "2025-07-26 12:07:38.108116",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -199,7 +199,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "ALMACEN",
-   "link_count": 6,
+   "link_count": 7,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -263,14 +263,24 @@
    "link_type": "Report",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Reporte personalizado",
+   "link_count": 0,
+   "link_to": "Reporte inventario LCDP",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2025-07-09 19:36:21.024817",
- "modified_by": "mandox.com.bo@gmail.com",
+ "modified": "2025-07-26 12:35:47.307532",
+ "modified_by": "Administrator",
  "module": "Mdx Lcdp",
  "name": "LCDP",
  "number_cards": [],
- "owner": "mandox.com.bo@gmail.com",
+ "owner": "Administrator",
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
