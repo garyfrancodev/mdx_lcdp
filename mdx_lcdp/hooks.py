@@ -1,28 +1,20 @@
 app_name = "mdx_lcdp"
 app_title = "Mdx Lcdp"
 app_publisher = "Gary Gabriel Garcia Cruz"
-app_description = "Parametrizacion exclusiva para el cliente la Casa del porcelanato"
+app_description = "Parametrizacion exclusiva para importadora de Porcelanatos"
 app_email = "garcia.cruzgc@gmail.com"
 app_license = "mit"
 
 
 fixtures = [
     # Aquí puedes añadir los DocTypes que quieras exportar como fixtures.
-    #{"dt": "Workspace", "filters": [["name", "=", "LCDP"]]}, #Este es el Workspace personalizado que se exportará.
     {"dt": "Letter Head", "filters": [["name", "=", "Membrete LCDP 1.0"]]}, # este es el Membrete personalizado que se exportará.
     {"dt": "Print Settings"}, # Este es el DocType de configuraciones de impresión que se exportará.
     {"dt": "Print Format", "filters": [["name", "=", "Cotizacion LCDP 1.0"]]}, # Este es el formato de impresión personalizado que se exportará.
-    #{"dt":"Report","filters":[["name","=","prueba_reporte"]]} # Este es un reporte personalizado que se exportará.
-
-    # Si tuvieras otro Workspace que quisieras exportar, lo añadirías aquí:
-    # {"dt": "Workspace", "filters": [["name", "=", "otro-workspace-personalizado"]]},
-
-    # Si también quisieras exportar otros DocTypes como fixtures, los añadirías aquí.
-    # Por ejemplo, para un Rol específico:
-    # {"dt": "Role", "filters": [["name", "=", "Librarian"]]},
-
-    # O para un DocType completo (¡con precaución, exporta todos los registros!):
-    # "DocTypePersonalizado"
+    {"dt": "Currency", "filters": [["name", "=", "BOB"]]},  # Exporta la configuración de la moneda BOB
+    {"dt": "System Settings"},
+    {"dt": "Global Defaults"}
+    
 ]
 
 # Apps

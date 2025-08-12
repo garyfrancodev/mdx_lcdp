@@ -1,0 +1,16 @@
+[
+ {
+  "country": "Bolivia, Plurinational State of",
+  "default_company": "LCDP",
+  "default_currency": "BOB",
+  "default_distance_unit": null,
+  "demo_company": null,
+  "disable_in_words": 1,
+  "disable_rounded_total": 1,
+  "docstatus": 0,
+  "doctype": "Global Defaults",
+  "hide_currency_symbol": "No",
+  "modified": "2025-08-11 19:39:27.226808",
+  "name": "Global Defaults"
+ }
+]

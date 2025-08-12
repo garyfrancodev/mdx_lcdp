@@ -1,0 +1,16 @@
+[
+ {
+  "currency_name": "BOB",
+  "docstatus": 0,
+  "doctype": "Currency",
+  "enabled": 1,
+  "fraction": null,
+  "fraction_units": 0,
+  "modified": "2025-08-11 19:39:28.111513",
+  "name": "BOB",
+  "number_format": "#,###.##",
+  "smallest_currency_fraction_value": 0.0,
+  "symbol": "Bs.",
+  "symbol_on_right": 0
+ }
+]
