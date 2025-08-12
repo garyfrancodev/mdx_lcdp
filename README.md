@@ -1,6 +1,6 @@
 ### Mdx Lcdp
 
-Parametrizacion exclusiva para el cliente la Casa del porcelanato
+Parametrizacion para importadora de porcelanatos
 
 ### Installation
 
