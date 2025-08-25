@@ -7,15 +7,15 @@ def execute(filters=None):
     price_list_name = frappe.db.get_value("Price List", {"selling": 1, "enabled": 1}, "name")
 
     columns = [
-        {"label": "Código", "fieldname": "item_code", "fieldtype": "Link", "options": "Item", "width": 80},
-        {"label": "Nombre del artículo", "fieldname": "item_name", "fieldtype": "Data", "width": 330},
+        {"label": "Código", "fieldname": "item_code", "fieldtype": "Link", "options": "Item", "width": 100, "show_name_in_link": False},
+        {"label": "Nombre del artículo", "fieldname": "item_name", "fieldtype": "Data", "width": 310},
         {"label": "Grupo de Producto", "fieldname": "item_group", "fieldtype": "Link", "options": "Item Group", "width": 150},
         {"label": "Cantidad", "fieldname": "qty", "fieldtype": "float", "width": 90},
-        {"label": "UM", "fieldname": "stock_uom", "fieldtype": "Link", "options": "UOM", "width": 100},
-        {"label": "Precio de Venta", "fieldname": "price", "fieldtype": "Currency", "width": 170},
+        {"label": "UM", "fieldname": "stock_uom", "fieldtype": "Link", "options": "UOM", "width": 75},
+        {"label": "Precio de Venta", "fieldname": "price", "fieldtype": "Currency", "width": 150},
         {"label": "Cantidad (m2)", "fieldname": "alt_qty", "fieldtype": "Float", "width": 130},
-        {"label": "UM alternativa", "fieldname": "alt_uom", "fieldtype": "Link", "options": "UOM", "width": 130},
-        
+        {"label": "UM alternativa", "fieldname": "alt_uom", "fieldtype": "Link", "options": "UOM", "width": 120},
+        {"label": "Factor", "fieldname": "conversion_factor", "fieldtype": "Float", "width": 80},
     ]
 
     data = []
@@ -47,12 +47,14 @@ def execute(filters=None):
 
         alt_qty = 0
         alt_uom = ""
+        conversion_factor = 0
 
         for uom in item.uoms:
             if uom.uom != stock_uom:
                 alt_uom = uom.uom
                 if uom.conversion_factor:
                     alt_qty = b.actual_qty * uom.conversion_factor
+                    conversion_factor = uom.conversion_factor
                 break
 
         data.append({
@@ -64,7 +66,7 @@ def execute(filters=None):
             "alt_qty": alt_qty,
             "alt_uom": alt_uom,
             "price": price,
-            
+            "conversion_factor": conversion_factor if 'conversion_factor' in locals() else 0,
         })
 
     return columns, data

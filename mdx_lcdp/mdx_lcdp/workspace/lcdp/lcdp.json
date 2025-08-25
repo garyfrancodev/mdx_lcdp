@@ -267,7 +267,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "Reporte personalizado",
+   "label": "\ud83d\udcddReporte simple de inventario",
    "link_count": 0,
    "link_to": "Reporte inventario LCDP",
    "link_type": "Report",
@@ -275,8 +275,8 @@
    "type": "Link"
   }
  ],
- "modified": "2025-07-26 12:35:47.307532",
- "modified_by": "Administrator",
+ "modified": "2025-08-24 05:20:41.448981",
+ "modified_by": "mandox.com.bo@gmail.com",
  "module": "Mdx Lcdp",
  "name": "LCDP",
  "number_cards": [],
@@ -288,6 +288,4 @@
  "sequence_id": 1.0,
  "shortcuts": [],
  "title": "LCDP"
-
- 
 }

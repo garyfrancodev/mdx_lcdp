@@ -4,7 +4,6 @@
  "columns": [],
  "creation": "2025-07-25 04:34:08.603375",
  "disabled": 0,
- "is_query_report": 1,
  "docstatus": 0,
  "doctype": "Report",
  "filters": [
@@ -28,7 +27,7 @@
  "is_standard": "Yes",
  "letter_head": "Membrete LCDP 1.0",
  "letterhead": null,
- "modified": "2025-07-26 04:13:12.650119",
+ "modified": "2025-08-24 05:30:12.641761",
  "modified_by": "Administrator",
  "module": "Mdx Lcdp",
  "name": "Reporte inventario LCDP",
