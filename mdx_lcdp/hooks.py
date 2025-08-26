@@ -14,7 +14,7 @@ fixtures = [
     {"dt": "Currency", "filters": [["name", "=", "BOB"]]},  # Exporta la configuración de la moneda BOB
     {"dt": "System Settings"},
     {"dt": "Global Defaults"},
-    # Unidades de medida fijas
+    # Unidades de medidas fijas
     {"dt": "UOM", "filters": [["uom_name", "in", ["Pieza(s)", "Caja(s)", "Paquete(s)", "m2"]]]},
     # Grupos de productos fijos
     {"dt": "Item Group", "filters": [["name", "in", ["HERRAMIENTAS", "PORCELANATOS", "PERFILES", "REJILLAS"]]]},
