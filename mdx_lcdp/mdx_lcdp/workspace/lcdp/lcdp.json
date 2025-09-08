@@ -199,7 +199,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "ALMACEN",
-   "link_count": 7,
+   "link_count": 5,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -247,26 +247,6 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "\ud83d\udcddReporte de inventario resumido",
-   "link_count": 0,
-   "link_to": "Stock Ledger",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "\ud83d\udcddReporte de inventario detallado",
-   "link_count": 0,
-   "link_to": "Stock Balance",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
    "label": "\ud83d\udcddReporte simple de inventario",
    "link_count": 0,
    "link_to": "Reporte inventario LCDP",
@@ -275,8 +255,8 @@
    "type": "Link"
   }
  ],
- "modified": "2025-08-24 05:20:41.448981",
- "modified_by": "mandox.com.bo@gmail.com",
+ "modified": "2025-09-07 17:13:38.658527",
+ "modified_by": "Administrator",
  "module": "Mdx Lcdp",
  "name": "LCDP",
  "number_cards": [],

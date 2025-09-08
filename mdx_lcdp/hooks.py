@@ -18,7 +18,7 @@ fixtures = [
     {"dt": "UOM", "filters": [["uom_name", "in", ["Pieza(s)", "Caja(s)", "Paquete(s)", "m2"]]]},
     # Grupos de productos fijos
     {"dt": "Item Group", "filters": [["name", "in", ["HERRAMIENTAS", "PORCELANATOS", "PERFILES", "REJILLAS"]]]},
-    
+    {"dt": "Client Script"},
 ]
 
 # Apps

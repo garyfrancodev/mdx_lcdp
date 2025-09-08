@@ -1,0 +1,9 @@
+{
+  "doctype": "Client Script",
+  "name": "Quotation Item - Validar cajas completas",
+  "dt": "Quotation Item",
+  "script_type": "Form",
+  "enabled": 1,
+  "is_standard": 1,
+  "script": "frappe.ui.form.on('Quotation Item', {\n    qty: function(frm, cdt, cdn) {\n        let row = locals[cdt][cdn];\n        if (row.uom === 'm2' && row.conversion_factor) {\n            let m2_por_caja = 1 / row.conversion_factor;\n            let cajas_exactas = row.qty / m2_por_caja;\n            let cajas_redondeadas = Math.ceil(cajas_exactas);\n            let m2_sugerido = cajas_redondeadas * m2_por_caja;\n            if (Math.abs(row.qty - m2_sugerido) > 0.01) {\n                frappe.msgprint({\n                    title: 'Cantidad ajustada',\n                    indicator: 'orange',\n                    message: `Solo puedes vender cajas enteras.<br>La cantidad más próxima en m² para vender cajas completas es <b>${m2_sugerido.toFixed(3)}</b>.<br>¿Deseas ajustar la cantidad?`\n                });\n            }\n        }\n    }\n});"
+}

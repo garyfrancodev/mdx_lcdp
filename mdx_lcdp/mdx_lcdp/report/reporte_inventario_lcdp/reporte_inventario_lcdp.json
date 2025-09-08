@@ -21,13 +21,21 @@
    "label": "Descripci\u00f3n",
    "mandatory": 0,
    "wildcard_filter": 0
+  },
+  {
+   "fieldname": "item_group",
+   "fieldtype": "Link",
+   "label": "Grupo de productos",
+   "mandatory": 0,
+   "options": "Item Group",
+   "wildcard_filter": 0
   }
  ],
  "idx": 0,
  "is_standard": "Yes",
  "letter_head": "Membrete LCDP 1.0",
  "letterhead": null,
- "modified": "2025-08-24 05:30:12.641761",
+ "modified": "2025-09-07 16:24:04.199463",
  "modified_by": "Administrator",
  "module": "Mdx Lcdp",
  "name": "Reporte inventario LCDP",
