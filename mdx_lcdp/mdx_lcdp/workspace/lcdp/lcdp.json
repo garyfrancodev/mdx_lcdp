@@ -1,18 +1,13 @@
 {
- "charts": [
-  {
-   "chart_name": "Sales Order Trends",
-   "label": "\u00d3rdenes de venta"
-  }
- ],
- "content": "[{\"id\":\"zuDQhcbcMj\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Accesos directos</b></span>\",\"col\":12}},{\"id\":\"-GklQcWh-K\",\"type\":\"card\",\"data\":{\"card_name\":\"VENTAS\",\"col\":3}},{\"id\":\"62iRScfFAd\",\"type\":\"card\",\"data\":{\"card_name\":\"COMPRAS\",\"col\":3}},{\"id\":\"5wwk3ZDJEj\",\"type\":\"card\",\"data\":{\"card_name\":\"PRODUCTOS Y PRECIOS\",\"col\":3}},{\"id\":\"j8M-Qz7Dh1\",\"type\":\"card\",\"data\":{\"card_name\":\"ALMACEN\",\"col\":3}},{\"id\":\"_iiAeZ30Ji\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u00d3rdenes de venta\",\"col\":12}}]",
+ "charts": [],
+ "content": "[{\"id\":\"zuDQhcbcMj\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Accesos directos</b></span>\",\"col\":12}},{\"id\":\"-GklQcWh-K\",\"type\":\"card\",\"data\":{\"card_name\":\"VENTAS\",\"col\":3}},{\"id\":\"62iRScfFAd\",\"type\":\"card\",\"data\":{\"card_name\":\"COMPRAS\",\"col\":3}},{\"id\":\"5wwk3ZDJEj\",\"type\":\"card\",\"data\":{\"card_name\":\"PRODUCTOS Y PRECIOS\",\"col\":3}},{\"id\":\"j8M-Qz7Dh1\",\"type\":\"card\",\"data\":{\"card_name\":\"ALMACEN\",\"col\":3}}]",
  "creation": "2025-07-26 12:07:38.108116",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "image-view",
+ "icon": "color-energy-points",
  "idx": 0,
  "indicator_color": "",
  "is_hidden": 0,
@@ -247,7 +242,7 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "\ud83d\udcddReporte simple de inventario",
+   "label": "\ud83d\udcddReporte de inventario",
    "link_count": 0,
    "link_to": "Reporte inventario LCDP",
    "link_type": "Report",
@@ -255,7 +250,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-09-07 17:13:38.658527",
+ "modified": "2025-09-07 21:05:46.484052",
  "modified_by": "Administrator",
  "module": "Mdx Lcdp",
  "name": "LCDP",
