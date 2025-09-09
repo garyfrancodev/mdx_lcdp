@@ -10,7 +10,7 @@ fixtures = [
     # Aquí puedes añadir los DocTypes que quieras exportar como fixtures.
     {"dt": "Letter Head", "filters": [["name", "=", "Membrete LCDP 1.0"]]}, # este es el Membrete personalizado que se exportará.
     {"dt": "Print Settings"}, # Este es el DocType de configuraciones de impresión que se exportará.
-    {"dt": "Print Format", "filters": [["name", "=", "Cotizacion LCDP 1.0"]]}, # Este es el formato de impresión personalizado que se exportará.
+    {"dt": "Print Format", "filters": [["name", "=", "Cot. porcelanatos sin imagen"]]}, # Este es el formato de impresión personalizado que se exportará.
     {"dt": "Currency", "filters": [["name", "=", "BOB"]]},  # Exporta la configuración de la moneda BOB
     {"dt": "System Settings"},
     {"dt": "Global Defaults"},
@@ -19,7 +19,8 @@ fixtures = [
     # Grupos de productos fijos
     {"dt": "Item Group", "filters": [["name", "in", ["HERRAMIENTAS", "PORCELANATOS", "PERFILES", "REJILLAS"]]]},
     {"dt": "Client Script"},
-    {"dt": "Custom Field", "filters": [["dt", "=", "Quotation Item"], ["fieldname", "=", "custom_cantidad_m2"]]},
+    {"dt": "Custom Field", "filters": [["dt", "=", "Quotation Item"], ["fieldname", "in", ["custom_cantidad_m2", "custom_precio_m2"]]]},
+    {"dt": "Translation"},
 ]
 
 # Apps
