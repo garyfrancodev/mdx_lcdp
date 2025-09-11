@@ -8,7 +8,7 @@
  "for_user": "",
  "hide_custom": 0,
  "icon": "color-energy-points",
- "idx": 0,
+ "idx": 2,
  "indicator_color": "",
  "is_hidden": 0,
  "label": "LCDP",
@@ -181,7 +181,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-09-10 01:52:41.347815",
+ "modified": "2025-09-11 02:03:16.363129",
  "modified_by": "Administrator",
  "module": "Mdx Lcdp",
  "name": "LCDP",
