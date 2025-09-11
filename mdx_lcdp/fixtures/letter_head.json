@@ -1,7 +1,7 @@
 [
  {
   "align": "Left",
-  "content": "<div style=\"text-align: left; margin-bottom: 15px;\">\n    <img src=\"/assets/mdx_lcdp/images/logo_lcdp.png\" alt=\"Logo de La Casa del Porcelanato\" style=\"max-width: 200px; height: 100px;\">\n</div>",
+  "content": "<div style=\"text-align: left; margin-bottom: 15px;\">\n    <img src=\"/assets/mdx_lcdp/images/logo_lcdp.png\" alt=\"Logo de La Casa del Porcelanato\" style=\"max-width: 190px; height: 80px;\">\n</div>",
   "disabled": 0,
   "docstatus": 0,
   "doctype": "Letter Head",
@@ -18,7 +18,7 @@
   "image_width": 0.0,
   "is_default": 1,
   "letter_head_name": "Membrete LCDP 1.0",
-  "modified": "2025-09-10 00:56:10.922015",
+  "modified": "2025-09-10 02:17:17.105582",
   "name": "Membrete LCDP 1.0",
   "source": "HTML"
  }

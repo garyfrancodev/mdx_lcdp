@@ -10,7 +10,7 @@ fixtures = [
     # Aquí puedes añadir los DocTypes que quieras exportar como fixtures.
     {"dt": "Letter Head", "filters": [["name", "=", "Membrete LCDP 1.0"]]}, # este es el Membrete personalizado que se exportará.
     {"dt": "Print Settings"}, # Este es el DocType de configuraciones de impresión que se exportará.
-    {"dt": "Print Format", "filters": [["name", "=", "Cot. porcelanatos sin imagen"]]}, # Este es el formato de impresión personalizado que se exportará.
+    {"dt": "Print Format", "filters": [["name", "in", ["Cot. porcelanatos sin imagen","Cot. porcelanatos con imagen", "ov_porcelanatos_sin_imagen"]]]}, # Este es el formato de impresión personalizado que se exportará.
     {"dt": "Currency", "filters": [["name", "=", "BOB"]]},  # Exporta la configuración de la moneda BOB
     {"dt": "System Settings"},
     {"dt": "Global Defaults"},

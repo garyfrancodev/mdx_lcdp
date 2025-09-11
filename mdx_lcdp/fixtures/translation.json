@@ -11,5 +11,57 @@
   "name": "ci5phaija6",
   "source_text": "Sr",
   "translated_text": "Nro."
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "es-BO",
+  "modified": "2025-09-10 05:13:43.094062",
+  "name": "2ppn9j8toe",
+  "source_text": "Numerado (BOB)",
+  "translated_text": "Pagado (BOB)"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "es-BO",
+  "modified": "2025-09-10 05:14:26.285777",
+  "name": "3jmfta5ac9",
+  "source_text": "Excepcional (BOB)",
+  "translated_text": "Saldo pendiente (BOB)"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "es-BO",
+  "modified": "2025-09-10 05:21:13.106094",
+  "name": "7ir83k9h1t",
+  "source_text": "Numerado",
+  "translated_text": "Pagado Bs"
+ },
+ {
+  "context": "Payment Entry",
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "es-BO",
+  "modified": "2025-09-10 05:22:31.119975",
+  "name": "7qan6cf47r",
+  "source_text": "Excepcional",
+  "translated_text": "Saldo Bs"
  }
 ]

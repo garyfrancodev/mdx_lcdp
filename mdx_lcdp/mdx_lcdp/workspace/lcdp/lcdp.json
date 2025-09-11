@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"zuDQhcbcMj\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Accesos directos</b></span>\",\"col\":12}},{\"id\":\"-GklQcWh-K\",\"type\":\"card\",\"data\":{\"card_name\":\"VENTAS\",\"col\":3}},{\"id\":\"62iRScfFAd\",\"type\":\"card\",\"data\":{\"card_name\":\"COMPRAS\",\"col\":3}},{\"id\":\"5wwk3ZDJEj\",\"type\":\"card\",\"data\":{\"card_name\":\"PRODUCTOS Y PRECIOS\",\"col\":3}},{\"id\":\"j8M-Qz7Dh1\",\"type\":\"card\",\"data\":{\"card_name\":\"ALMACEN\",\"col\":3}}]",
+ "content": "[{\"id\":\"zuDQhcbcMj\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Accesos directos</b></span>\",\"col\":12}},{\"id\":\"-GklQcWh-K\",\"type\":\"card\",\"data\":{\"card_name\":\"VENTAS\",\"col\":4}},{\"id\":\"5wwk3ZDJEj\",\"type\":\"card\",\"data\":{\"card_name\":\"PRODUCTOS Y PRECIOS\",\"col\":4}},{\"id\":\"j8M-Qz7Dh1\",\"type\":\"card\",\"data\":{\"card_name\":\"ALMACEN\",\"col\":4}}]",
  "creation": "2025-07-26 12:07:38.108116",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,65 +13,6 @@
  "is_hidden": 0,
  "label": "LCDP",
  "links": [
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "COMPRAS",
-   "link_count": 5,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "\ud83d\uded2Orden de compra",
-   "link_count": 0,
-   "link_to": "Purchase Order",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "\ud83e\uddfeFactura de compras",
-   "link_count": 0,
-   "link_to": "Purchase Invoice",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "\ud83d\udce4Recepci\u00f3n de mercanc\u00edas",
-   "link_count": 0,
-   "link_to": "Purchase Receipt",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "\ud83d\udc65Proveedores",
-   "link_count": 0,
-   "link_to": "Supplier",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "\ud83d\udccbReporte de compras",
-   "link_count": 0,
-   "link_to": "Purchase Analytics",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
   {
    "hidden": 0,
    "is_query_report": 0,
@@ -240,7 +181,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-09-08 20:08:06.466188",
+ "modified": "2025-09-10 01:52:41.347815",
  "modified_by": "Administrator",
  "module": "Mdx Lcdp",
  "name": "LCDP",
