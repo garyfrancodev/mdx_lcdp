@@ -19,9 +19,10 @@ fixtures = [
     # Grupos de productos fijos
     {"dt": "Item Group", "filters": [["name", "in", ["HERRAMIENTAS", "PORCELANATOS", "PERFILES", "REJILLAS"]]]},
     {"dt": "Client Script"},
-    {"dt": "Custom Field", "filters": [["dt", "=", "Quotation Item"], ["fieldname", "in", ["custom_cantidad_m2", "custom_precio_m2"]]]},
-    {"dt": "Custom Field", "filters": [["dt", "=", "Sales Order Item"], ["fieldname", "in", ["custom_cantidad_m2", "custom_precio_m2"]]]},
     {"dt": "Translation"},
+    {"dt": "Custom Field", "filters": [
+    ["dt", "in", ["Quotation Item", "Sales Order Item"]],
+    ["fieldname", "in", ["custom_cantidad_m2", "custom_precio_m2"]]]},
 ]
 
 # Apps
