@@ -1,0 +1,66 @@
+{
+ "add_total_row": 1,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2025-09-13 17:42:54.937751",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "fecha_inicio",
+   "fieldtype": "Date",
+   "label": "Fecha de inicio",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "fecha_fin",
+   "fieldtype": "Date",
+   "label": "Fecha de fin",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "hola",
+   "fieldtype": "Data",
+   "label": "hola",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "Membrete LCDP 1.0",
+ "letterhead": null,
+ "modified": "2025-09-14 09:03:21.855738",
+ "modified_by": "Administrator",
+ "module": "Mdx Lcdp",
+ "name": "Reporte de ventas LCDP",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Sales Order",
+ "report_name": "Reporte de ventas LCDP",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Sales User"
+  },
+  {
+   "role": "Sales Manager"
+  },
+  {
+   "role": "Maintenance User"
+  },
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Stock User"
+  },
+  {
+   "role": "Accounts Manager"
+  }
+ ],
+ "timeout": 0
+}

@@ -173,15 +173,15 @@
   {
    "hidden": 0,
    "is_query_report": 1,
-   "label": "\ud83d\udccaReporte de ventas",
+   "label": "\ud83d\udcca Reporte de ventas",
    "link_count": 0,
-   "link_to": "Sales Analytics",
+   "link_to": "Reporte de ventas LCDP",
    "link_type": "Report",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2025-09-11 02:03:16.363129",
+ "modified": "2025-09-13 17:47:35.804317",
  "modified_by": "Administrator",
  "module": "Mdx Lcdp",
  "name": "LCDP",

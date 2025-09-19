@@ -23,6 +23,11 @@ fixtures = [
     {"dt": "Custom Field", "filters": [
     ["dt", "in", ["Quotation Item", "Sales Order Item"]],
     ["fieldname", "in", ["custom_cantidad_m2", "custom_precio_m2"]]]},
+    {"dt": "Property Setter", "filters": [
+    ["doc_type", "=", "Customer"],
+    ["field_name", "=", "tax_id"],
+    ["property", "=", "reqd"]
+]},
 ]
 
 # Apps
