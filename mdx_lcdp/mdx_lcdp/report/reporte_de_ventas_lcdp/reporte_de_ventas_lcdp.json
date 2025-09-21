@@ -20,20 +20,13 @@
    "label": "Fecha de fin",
    "mandatory": 0,
    "wildcard_filter": 0
-  },
-  {
-   "fieldname": "hola",
-   "fieldtype": "Data",
-   "label": "hola",
-   "mandatory": 0,
-   "wildcard_filter": 0
   }
  ],
  "idx": 0,
  "is_standard": "Yes",
  "letter_head": "Membrete LCDP 1.0",
  "letterhead": null,
- "modified": "2025-09-14 09:03:21.855738",
+ "modified": "2025-09-21 14:52:30.092276",
  "modified_by": "Administrator",
  "module": "Mdx Lcdp",
  "name": "Reporte de ventas LCDP",

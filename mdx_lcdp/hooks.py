@@ -15,7 +15,7 @@ fixtures = [
     {"dt": "System Settings"},
     {"dt": "Global Defaults"},
     # Unidades de medidas fijas
-    {"dt": "UOM", "filters": [["uom_name", "in", ["Pieza(s)", "Caja(s)", "Paquete(s)", "m2"]]]},
+    {"dt": "UOM", "filters": [["uom_name", "in", ["Pieza(s)", "Caja(s)", "Paquete(s)", "m2","Balde(s)"]]]},
     # Grupos de productos fijos
     {"dt": "Item Group", "filters": [["name", "in", ["HERRAMIENTAS", "PORCELANATOS", "PERFILES", "REJILLAS"]]]},
     {"dt": "Client Script"},
