@@ -19,6 +19,8 @@ fixtures = [
     # Grupos de productos fijos
     {"dt": "Item Group", "filters": [["name", "in", ["HERRAMIENTAS", "PORCELANATOS", "PERFILES", "REJILLAS"]]]},
     {"dt": "Client Script"},
+    {"dt": "Account", "filters": [["name", "=", "1210 - Bancos - L"]]},
+    {"dt": "Mode of Payment", "filters": [["name", "=", "QR"]]},
     {"dt": "Translation"},
     {"dt": "Custom Field", "filters": [
     ["dt", "in", ["Quotation Item", "Sales Order Item"]],

@@ -1,0 +1,23 @@
+[
+ {
+  "account_currency": "BOB",
+  "account_name": "Bancos",
+  "account_number": "1210",
+  "account_type": "Bank",
+  "balance_must_be": "",
+  "company": "LCDP",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Account",
+  "freeze_account": "No",
+  "include_in_gross": 0,
+  "is_group": 0,
+  "modified": "2025-09-21 19:50:56.804409",
+  "name": "1210 - Bancos - L",
+  "old_parent": "1200 - Cuentas bancarias - L",
+  "parent_account": "1200 - Cuentas bancarias - L",
+  "report_type": "Balance Sheet",
+  "root_type": "Asset",
+  "tax_rate": 0.0
+ }
+]
