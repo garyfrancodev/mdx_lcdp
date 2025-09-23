@@ -5,6 +5,13 @@ app_description = "Parametrizacion exclusiva para importadora de Porcelanatos"
 app_email = "garcia.cruzgc@gmail.com"
 app_license = "mit"
 
+doc_events = {
+    "Sales Order": {
+        "on_submit": "mdx_lcdp.sales_order_hooks.generar_nota_entrega_si_tikeado"
+    }
+}
+
+
 
 fixtures = [
     # Aquí puedes añadir los DocTypes que quieras exportar como fixtures.
@@ -23,14 +30,16 @@ fixtures = [
     {"dt": "Mode of Payment", "filters": [["name", "=", "QR"]]},
     {"dt": "Translation"},
     {"dt": "Custom Field", "filters": [
-    ["dt", "in", ["Quotation Item", "Sales Order Item"]],
-    ["fieldname", "in", ["custom_cantidad_m2", "custom_precio_m2"]]]},
+    ["dt", "in", ["Quotation Item", "Sales Order Item", "Sales Order"]],
+    ["fieldname", "in", ["custom_cantidad_m2", "custom_precio_m2", "custom_generar_nota_de_entrega"]]]},
     {"dt": "Property Setter", "filters": [
     ["doc_type", "=", "Customer"],
     ["field_name", "=", "tax_id"],
     ["property", "=", "reqd"]
 ]},
 ]
+
+
 
 # Apps
 # ------------------
