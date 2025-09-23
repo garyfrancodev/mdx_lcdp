@@ -12,7 +12,9 @@ def generar_nota_entrega_si_tikeado(doc, method):
                         "qty": item.qty,
                         "so_detail": item.name,
                         "sales_order": doc.name,
-                        "against_sales_order": doc.name  # <-- Agrega esta línea si el campo existe
+                        "against_sales_order": doc.name,
+                        "custom_cantidad_m2": getattr(item, "custom_cantidad_m2", None),
+                        "custom_precio_m2": getattr(item, "custom_precio_m2", None)
                     }
                     for item in doc.items
                 ],

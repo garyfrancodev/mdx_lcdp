@@ -30,7 +30,7 @@ fixtures = [
     {"dt": "Mode of Payment", "filters": [["name", "=", "QR"]]},
     {"dt": "Translation"},
     {"dt": "Custom Field", "filters": [
-    ["dt", "in", ["Quotation Item", "Sales Order Item", "Sales Order"]],
+    ["dt", "in", ["Quotation Item", "Sales Order Item", "Sales Order", "Delivery Note Item"]],
     ["fieldname", "in", ["custom_cantidad_m2", "custom_precio_m2", "custom_generar_nota_de_entrega"]]]},
     {"dt": "Property Setter", "filters": [
     ["doc_type", "=", "Customer"],
