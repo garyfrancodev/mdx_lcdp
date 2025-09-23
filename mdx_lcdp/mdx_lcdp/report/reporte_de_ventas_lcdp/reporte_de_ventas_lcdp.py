@@ -11,6 +11,7 @@ def execute(filters=None):
         {"label": _("Total Pagado"), "fieldname": "total_pagado", "fieldtype": "Currency"},
         {"label": _("Saldo por Cobrar"), "fieldname": "saldo_por_cobrar", "fieldtype": "Currency"},
         {"label": _("Nota de Entrega"), "fieldname": "nota_entrega", "fieldtype": "Data"},
+        {"label": _("Consolidar"), "fieldname": "custom_consolidar", "fieldtype": "Data"},
     ]
 
     where = ["so.docstatus = 1"]
@@ -54,7 +55,8 @@ def execute(filters=None):
                 SELECT 1 FROM `tabDelivery Note Item` dni
                 WHERE dni.against_sales_order = so.name
                   AND dni.docstatus = 1
-            ) THEN 'Sí' ELSE 'No' END AS nota_entrega
+            ) THEN 'Sí' ELSE 'No' END AS nota_entrega,
+            CASE WHEN so.custom_consolidar = 1 THEN 'Sí' ELSE 'No' END AS custom_consolidar
         FROM `tabSales Order` so
         LEFT JOIN `tabCustomer` c ON so.customer = c.name
         {where_clause}

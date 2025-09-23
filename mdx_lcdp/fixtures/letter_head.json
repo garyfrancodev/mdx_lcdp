@@ -5,7 +5,7 @@
   "disabled": 0,
   "docstatus": 0,
   "doctype": "Letter Head",
-  "footer": "<div style=\"text-align: center; font-family: Arial, sans-serif; font-size: 10px; color: #555;\">\n    <hr style=\"border: none; border-top: 1px solid #eee; margin-bottom: 5px;\">\n    <p>La Casa del Porcelanato - Calle Vallegrande Nº 545 - Santa Cruz de la Sierra, Bolivia</p>\n    <p>Teléfono: 3299796 | Celular: 72610509</p>\n</div>",
+  "footer": "<footer style=\"font-family: Arial, sans-serif; \n    background-color: #f9f9f9; \n    \n    /* El detalle 'WOW': La línea naranja como firma lateral */\n    border-left: 4px solid #FF8C00; \n    \n    padding: 8px 20px; \n    text-align: left; /* Alineación a la izquierda para un look más profesional */\">\n\n    <p style=\"margin: 0 0 6px 0; font-size: 14px; font-weight: bold; color: #111;\">\n        La Casa del Porcelanato\n    </p>\n    \n    <p style=\"margin: 0; font-size: 11px; color: #666; line-height: 1.5;\">\n        Calle Vallegrande Nº 545, Santa Cruz de la Sierra • Tel: 3299796 • Cel: 72610509\n    </p>\n    \n    <p style=\"margin: 6px 0 0 0;\">\n        <a href=\"http://www.lacasadelporcelanato.com\" style=\"color: #111; text-decoration: none; font-size: 12px; font-weight: 600;\">\n            www.lacasadelporcelanato.com\n        </a>\n    </p>\n\n</footer>",
   "footer_align": "Left",
   "footer_image": null,
   "footer_image_height": 0.0,
@@ -18,7 +18,7 @@
   "image_width": 0.0,
   "is_default": 1,
   "letter_head_name": "Membrete LCDP 1.0",
-  "modified": "2025-09-10 02:17:17.105582",
+  "modified": "2025-09-23 09:05:27.407870",
   "name": "Membrete LCDP 1.0",
   "source": "Image"
  }

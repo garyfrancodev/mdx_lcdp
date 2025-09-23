@@ -8,6 +8,9 @@ app_license = "mit"
 doc_events = {
     "Sales Order": {
         "on_submit": "mdx_lcdp.sales_order_hooks.generar_nota_entrega_si_tikeado"
+    },
+    "Delivery Note": {
+        "before_insert": "mdx_lcdp.delivery_note_map_custom_fields.set_custom_fields_on_delivery_note"
     }
 }
 
@@ -17,7 +20,7 @@ fixtures = [
     # Aquí puedes añadir los DocTypes que quieras exportar como fixtures.
     {"dt": "Letter Head", "filters": [["name", "=", "Membrete LCDP 1.0"]]}, # este es el Membrete personalizado que se exportará.
     {"dt": "Print Settings"}, # Este es el DocType de configuraciones de impresión que se exportará.
-    {"dt": "Print Format", "filters": [["name", "in", ["Cot. porcelanatos sin imagen","Cot. porcelanatos con imagen", "ov_porcelanatos_sin_imagen"]]]}, # Este es el formato de impresión personalizado que se exportará.
+    {"dt": "Print Format", "filters": [["name", "in", ["NT sin imagen","OV sin imagen", "Cot. sin imagen","Cot. con imagen"]]]}, # Este es el formato de impresión personalizado que se exportará.
     {"dt": "Currency", "filters": [["name", "=", "BOB"]]},  # Exporta la configuración de la moneda BOB
     {"dt": "System Settings"},
     {"dt": "Global Defaults"},
@@ -31,12 +34,15 @@ fixtures = [
     {"dt": "Translation"},
     {"dt": "Custom Field", "filters": [
     ["dt", "in", ["Quotation Item", "Sales Order Item", "Sales Order", "Delivery Note Item"]],
-    ["fieldname", "in", ["custom_cantidad_m2", "custom_precio_m2", "custom_generar_nota_de_entrega"]]]},
-    {"dt": "Property Setter", "filters": [
-    ["doc_type", "=", "Customer"],
-    ["field_name", "=", "tax_id"],
-    ["property", "=", "reqd"]
-]},
+    ["fieldname", "in", ["custom_consolidar","custom_cantidad_m2", "custom_precio_m2", "custom_generar_nota_de_entrega"]]]},
+    {
+    "dt": "Property Setter",
+    "filters": [
+        ["doc_type", "in", ["Payment Entry","Quotation Item", "Sales Order Item", "Delivery Note Item", "Customer"]],
+        ["field_name", "in", ["rate", "amount", "tax_id","actual_qty", "item_code","qty","uom","delivery_date","reference_no"]],
+        ["property", "in", ["columns", "reqd", "in_list_view", "default"]]
+    ]
+    },
 ]
 
 
