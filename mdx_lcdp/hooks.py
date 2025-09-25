@@ -20,12 +20,14 @@ fixtures = [
     # Aquí puedes añadir los DocTypes que quieras exportar como fixtures.
     {"dt": "Letter Head", "filters": [["name", "=", "Membrete LCDP 1.0"]]}, # este es el Membrete personalizado que se exportará.
     {"dt": "Print Settings"}, # Este es el DocType de configuraciones de impresión que se exportará.
-    {"dt": "Print Format", "filters": [["name", "in", ["NT sin imagen","OV sin imagen", "Cot. sin imagen","Cot. con imagen"]]]}, # Este es el formato de impresión personalizado que se exportará.
+    {"dt": "Print Format", "filters": [["name", "in", ["NT sin imagen","OV sin imagen", "Cot. sin imagen","Cot. con imagen", "Comprobante de pago"]]]}, # Este es el formato de impresión personalizado que se exportará.
     {"dt": "Currency", "filters": [["name", "=", "BOB"]]},  # Exporta la configuración de la moneda BOB
     {"dt": "System Settings"},
     {"dt": "Global Defaults"},
     # Unidades de medidas fijas
+    {"dt": "Stock Entry Type", "filters": [["name", "=", "Ingreso de productos"]]},
     {"dt": "UOM", "filters": [["uom_name", "in", ["Pieza(s)", "Caja(s)", "Paquete(s)", "m2","Balde(s)"]]]},
+    {"dt": "Stock Settings", "filters": [["default_uom", "=", "Pieza(s)"]]},
     # Grupos de productos fijos
     {"dt": "Item Group", "filters": [["name", "in", ["HERRAMIENTAS", "PORCELANATOS", "PERFILES", "REJILLAS"]]]},
     {"dt": "Client Script"},
@@ -38,8 +40,8 @@ fixtures = [
     {
     "dt": "Property Setter",
     "filters": [
-        ["doc_type", "in", ["Payment Entry","Quotation Item", "Sales Order Item", "Delivery Note Item", "Customer"]],
-        ["field_name", "in", ["rate", "amount", "tax_id","actual_qty", "item_code","qty","uom","delivery_date","reference_no"]],
+        ["doc_type", "in", ["Item","Payment Entry","Quotation Item", "Sales Order Item", "Delivery Note Item", "Customer"]],
+        ["field_name", "in", ["is_fixed_asset","item_name","opening_stock","standard_rate","rate", "amount", "tax_id","actual_qty", "item_code","qty","uom","delivery_date","reference_no"]],
         
     ]
     },

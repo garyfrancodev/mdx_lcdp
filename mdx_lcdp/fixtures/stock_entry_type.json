@@ -1,0 +1,11 @@
+[
+ {
+  "add_to_transit": 0,
+  "docstatus": 0,
+  "doctype": "Stock Entry Type",
+  "is_standard": 0,
+  "modified": "2025-09-25 01:11:03.303374",
+  "name": "Ingreso de productos",
+  "purpose": "Material Receipt"
+ }
+]
