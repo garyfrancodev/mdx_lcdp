@@ -8,14 +8,14 @@ def execute(filters=None):
 
     columns = [
         {"label": "Código", "fieldname": "item_code", "fieldtype": "Link", "options": "Item", "width": 70, "show_name_in_link": False},
-        {"label": "Nombre del artículo", "fieldname": "item_name", "fieldtype": "Data", "width": 260},
+        {"label": "Nombre del artículo", "fieldname": "item_name", "fieldtype": "Data", "width": 300},
         {"label": "Grupo de Producto", "fieldname": "item_group", "fieldtype": "Link", "options": "Item Group", "width": 130},
         {"label": "Cantidad", "fieldname": "qty", "fieldtype": "float", "width": 90},
         {"label": "UM", "fieldname": "stock_uom", "fieldtype": "Link", "options": "UOM", "width": 75},
         {"label": "Precio Unit.", "fieldname": "price", "fieldtype": "Currency", "width": 110},
         {"label": "Cantidad (m2)", "fieldname": "alt_qty", "fieldtype": "Float", "width": 130},
+        {"label": "UM alternativa", "fieldname": "alt_uom", "fieldtype": "Link", "options": "UOM", "width": 75},
         {"label": "Precio x m2", "fieldname": "price_per_m2", "fieldtype": "Currency", "width": 110},
-        {"label": "UM alternativa", "fieldname": "alt_uom", "fieldtype": "Link", "options": "UOM", "width": 100},
         {"label": "Factor", "fieldname": "conversion_factor", "fieldtype": "Float", "width": 70},
     ]
 
