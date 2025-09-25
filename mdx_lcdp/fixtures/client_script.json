@@ -53,5 +53,16 @@
   "name": "LIsta_precios_actualizador_masivo_ventas",
   "script": "frappe.ui.form.on('Price List', {\n    refresh(frm) {\n        frm.add_custom_button('Actualizador masivo de precios', () => {\n            frappe.prompt([\n                {\n                    fieldname: 'porcentaje',\n                    label: 'Porcentaje de incremento (%)',\n                    fieldtype: 'Float',\n                    reqd: 1\n                }\n            ], (values) => {\n                frappe.call({\n                    method: 'mdx_lcdp.api.actualizar_precios_masivo',\n                    args: {\n                        price_list: frm.doc.name,\n                        porcentaje: values.porcentaje\n                    },\n                    callback: function(r) {\n                        frappe.msgprint({\n                            title: 'Resultado de la actualización',\n                            indicator: r.message.includes('exitosa') ? 'green' : 'red',\n                            message: r.message,\n                            wide: true\n                        });\n                        frm.reload_doc();\n                    }\n                });\n            }, 'Actualizar precios', 'Actualizar');\n        });\n    }\n});",
   "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Quotation",
+  "enabled": 1,
+  "modified": "2025-09-24 22:14:03.468269",
+  "module": "Mdx Lcdp",
+  "name": "Fecha de validez de la cotizacion",
+  "script": "frappe.ui.form.on('Quotation', {\n    onload: function(frm) {\n        if (!frm.doc.valid_till) {\n            let today = frappe.datetime.get_today();\n            let two_days_later = frappe.datetime.add_days(today, 2);\n            frm.set_value('valid_till', two_days_later);\n        }\n    }\n});",
+  "view": "Form"
  }
 ]
