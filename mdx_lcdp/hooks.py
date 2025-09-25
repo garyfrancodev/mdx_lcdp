@@ -40,7 +40,7 @@ fixtures = [
     "filters": [
         ["doc_type", "in", ["Payment Entry","Quotation Item", "Sales Order Item", "Delivery Note Item", "Customer"]],
         ["field_name", "in", ["rate", "amount", "tax_id","actual_qty", "item_code","qty","uom","delivery_date","reference_no"]],
-        ["property", "in", ["columns", "reqd", "in_list_view", "default"]]
+        
     ]
     },
 ]
