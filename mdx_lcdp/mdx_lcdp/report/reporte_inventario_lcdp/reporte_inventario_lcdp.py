@@ -7,7 +7,7 @@ def execute(filters=None):
     price_list_name = frappe.db.get_value("Price List", {"selling": 1, "enabled": 1}, "name")
 
     columns = [
-        {"label": "Código", "fieldname": "item_code", "fieldtype": "Link", "options": "Item", "width": 70, "show_name_in_link": False},
+        {"label": "Código", "fieldname": "item_code", "fieldtype": "Link", "options": "Item", "width": 80, "show_name_in_link": False},
         {"label": "Nombre del artículo", "fieldname": "item_name", "fieldtype": "Data", "width": 300},
         {"label": "Grupo de Producto", "fieldname": "item_group", "fieldtype": "Link", "options": "Item Group", "width": 130},
         {"label": "Cantidad", "fieldname": "qty", "fieldtype": "float", "width": 90},
@@ -78,5 +78,5 @@ def execute(filters=None):
         })
 
     # Ordenar por Grupo de Producto (item_group) alfabéticamente
-    data = sorted(data, key=lambda x: x["item_group"])
+    data = sorted(data, key=lambda x: (x["item_group"], x["item_code"]))
     return columns, data

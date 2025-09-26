@@ -102,5 +102,31 @@
   "name": "3j7ejrvl1i",
   "source_text": "Material Receipt",
   "translated_text": "Recepción de material"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "es-BO",
+  "modified": "2025-09-26 11:08:22.886537",
+  "name": "f04893dajc",
+  "source_text": "Target Warehouse",
+  "translated_text": "Almacén de destino"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "es-BO",
+  "modified": "2025-09-26 13:58:41.233724",
+  "name": "ipc6tdanbt",
+  "source_text": "Customer",
+  "translated_text": "Cliente"
  }
 ]

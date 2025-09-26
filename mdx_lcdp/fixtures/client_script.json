@@ -64,5 +64,27 @@
   "name": "Fecha de validez de la cotizacion",
   "script": "frappe.ui.form.on('Quotation', {\n    onload: function(frm) {\n        if (!frm.doc.valid_till) {\n            let today = frappe.datetime.get_today();\n            let two_days_later = frappe.datetime.add_days(today, 2);\n            frm.set_value('valid_till', two_days_later);\n        }\n    }\n});",
   "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Stock Entry",
+  "enabled": 1,
+  "modified": "2025-09-26 11:37:01.114985",
+  "module": "Mdx Lcdp",
+  "name": "Valores predeterminados de entrada de inventario",
+  "script": "frappe.ui.form.on('Stock Entry', {\r\n    onload: function(frm) {\r\n        if (!frm.doc.stock_entry_type) {\r\n            frm.set_value('stock_entry_type', 'Ingreso de productos');\r\n        }\r\n        if (!frm.doc.to_warehouse) {\r\n            frm.set_value('to_warehouse', 'Sucursales - L');\r\n        }\r\n    }\r\n});",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Sales Order",
+  "enabled": 1,
+  "modified": "2025-09-26 13:52:06.482191",
+  "module": "Mdx Lcdp",
+  "name": "Valores predeterminados OV",
+  "script": "frappe.ui.form.on('Sales Order', {\n    onload: function(frm) {\n        if (!frm.doc.delivery_date) {\n            frm.set_value('delivery_date', frappe.datetime.get_today());\n        }\n    }\n});",
+  "view": "Form"
  }
 ]

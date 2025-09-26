@@ -40,8 +40,8 @@ fixtures = [
     {
     "dt": "Property Setter",
     "filters": [
-        ["doc_type", "in", ["Item","Payment Entry","Quotation Item", "Sales Order Item", "Delivery Note Item", "Customer"]],
-        ["field_name", "in", ["is_fixed_asset","item_name","opening_stock","standard_rate","rate", "amount", "tax_id","actual_qty", "item_code","qty","uom","delivery_date","reference_no"]],
+        ["doc_type", "in", ["Stock Entry","Item","Payment Entry","Quotation Item", "Sales Order Item", "Delivery Note Item", "Customer"]],
+        ["field_name", "in", ["basic_rate","is_fixed_asset","item_name","opening_stock","standard_rate","rate", "amount", "tax_id","actual_qty", "item_code","qty","uom","delivery_date","reference_no"]],
         
     ]
     },
